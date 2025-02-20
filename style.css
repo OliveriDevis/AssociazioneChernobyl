@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    width: 100%;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;  /*Aggiungi overflow: hidden se non influisce sul comportamento sticky */
+}
+
+.container h2 {
+    text-align: center;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 0px;
+    min-height: 70px;
+    border-bottom: #f4f4f4 2px solid;
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Happy Monkey', cursive;
+    color: #f85546;
+    line-height: 1.3em;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+}
+
+header .sottotitolo {
+    text-align: center; 
+    color: #fff;
+    line-height: 1.3em;
+    font-size: 23px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+nav {   
+    min-height: 25px;
+    position: sticky;
+    top: 0;
+    background-color: #35424a;
+    z-index: 100;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #e8491d;
+}
+
+.section {
+    padding: 20px 20%;
+    background: #ffffff;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.images-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap; 
+}
+
+.about-image {
+    width: 45%; 
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 14px 18px rgba(0, 0, 0, 0.2);
+}
+
+
+#5permille {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+#5permille h2 {
+    text-align: center;
+    color: #35424a;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#5permille h3 {
+    color: #35424a;
+    font-size: 22px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+#5permille h4 {
+    color: #35424a;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#5permille p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+
+footer {
+    background: #35424a;
+    color: white;
+    padding: 20px 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.faq-item {
+    margin-bottom: 20px; 
+}
+
+.faq-item h3 {
+    font-size: 16px;
+    color: #35424a;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+
+.contact-info, .social-links {
+    flex: 1;
+    text-align: center;
+}
+.contact-info {
+    text-align: center; /* Centra il contenuto */
+}
+
+.contact-info p {
+    display: flex;
+    justify-content: center; /* Centra gli elementi orizzontalmente */
+    align-items: center;
+    gap: 10px; /* Distanza tra icona e testo */
+}
+
+
+.contact-icon {
+    width: 20px; /* Se usi immagini */
+    height: auto;
+}
+
+.contact-info i {
+    font-size: 20px; /* Se usi Font Awesome */
+    color: #35424a;
+}
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-icon {
+    text-decoration: none;
+    width: 45px; /* Regola la dimensione */
+    height: auto;   
+    margin-right: 15px;
+}
+
+.footer-divider {
+    width: 80%;
+    height: 0.8px;
+    background-color: #ffffff;
+    margin: 20px auto;
+}
+
+.highlight {
+    color: #2d2d2d;
+    font-weight: bold;
+}
